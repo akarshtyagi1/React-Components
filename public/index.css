@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding:50px;
+    background-color: #c0d2d4;
+    font-family: sans-serif;
+}
+
+
+
+/* CSS for Cards start */
+.heading{
+    text-align: center;
+    margin:auto;
+}
+
+.card{
+    transform: scale(1.25);
+    height:200px;
+    width: 320px;
+    margin: 80px auto;
+    display: flex;
+    background-color:#81ecec;
+    border-radius: 25px;
+    position: relative;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.4)
+}
+
+.title{
+    width:320px;
+    height:80px;
+    font-size:small;
+    color: #2d3436;
+    position:absolute;
+    background-color:#00cecbfd;
+    display:flex;
+    border-radius: 25px 25px 0 0;
+    padding: 10px 20px;
+}
+
+.card-img{
+    border-radius: 50%;
+    border: 7px solid white;
+    position:absolute;
+    width: 120px;
+    height: 120px;
+    top: 20px;
+    right: 20px;
+}
+
+.content{
+    margin-top: 100px;
+    padding: 10px 20px;
+}
+
+.content p {
+    margin-top:10px;
+    color:#1a7e76;
+}
+
+.name{
+    position: absolute;
+    bottom: 20px;
+}
+
+
+/* CSS for emojipedia */
+.heading-box {
+    margin: 0;
+}
+
+.emoji-heading {
+    text-align: center;
+    font-size: 500%;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 3px;
+    padding: 10px 20px;
+}
+
+.emoji-heading span {
+    padding: 10px;
+    background-color: #2ec2b0;
+}
+
+.emoji {
+    font-size: 400%;
+}
+
+.emoji-card-box {
+    padding: 20px;
+    margin: 20px;
+    width: 350px;
+    text-align: center;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0 5px 10px rgb(0,0,0,0.4);
+}
+
+.emoji-container {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 35px 0;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.emoji-title {
+    color:#2ec2b0;
+    font-size: 200%;
+    margin-top: 20px;
+}
+
+.emoji-detail {
+    font-size: 92.5%;
+    color: #a1a1a1;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
